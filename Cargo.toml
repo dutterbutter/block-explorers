@@ -20,7 +20,7 @@ all-features = true
 [dependencies]
 ethers-core = { version = "2", default-features = false }
 
-foundry-compilers = { version = "0.1", optional = true }
+foundry-compilers = { path = "/Users/dustinbrickwood/Documents/dev/dut/forks/compilers", optional = true }
 
 reqwest = { version = "0.11.19", default-features = false, features = ["json"] }
 serde = { version = "1.0", features = ["derive"] }
@@ -33,7 +33,7 @@ alloy-primitives = { version = "0.4", default-features = false, features = ["std
 alloy-json-abi = { version = "0.4", default-features = false, features = ["std", "serde_json"] }
 
 [dev-dependencies]
-foundry-compilers = { version = "0.1" }
+foundry-compilers = { path = "/Users/dustinbrickwood/Documents/dev/dut/forks/compilers" }
 
 tempfile = "3.8"
 tokio = { version = "1.32", features = ["macros", "rt-multi-thread", "time"] }
