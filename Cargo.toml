@@ -32,7 +32,7 @@ alloy-primitives = { version = "0.4", default-features = false, features = ["std
 alloy-json-abi = { version = "0.4", default-features = false, features = ["std", "serde_json"] }
 
 [dev-dependencies]
-foundry-compilers = { path = "/Users/dustinbrickwood/Documents/dev/dut/forks/compilers" }
+foundry-compilers = { git = "https://github.com/dutterbutter/compilers.git", rev= "1e5a5ee65b9aaea2e72500b5a6d9ca8defafd37d" }
 
 tempfile = "3.8"
 tokio = { version = "1.32", features = ["macros", "rt-multi-thread", "time"] }
