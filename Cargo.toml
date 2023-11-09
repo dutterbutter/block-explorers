@@ -19,8 +19,7 @@ all-features = true
 
 [dependencies]
 ethers-core = { version = "2", default-features = false }
-
-foundry-compilers = { path = "/Users/dustinbrickwood/Documents/dev/dut/forks/compilers", optional = true }
+foundry-compilers = { git = "https://github.com/dutterbutter/compilers.git", rev= "1e5a5ee65b9aaea2e72500b5a6d9ca8defafd37d", optional = true  }
 
 reqwest = { version = "0.11.19", default-features = false, features = ["json"] }
 serde = { version = "1.0", features = ["derive"] }
